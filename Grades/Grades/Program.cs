@@ -13,9 +13,16 @@ namespace Grades
             GradeBook book = new GradeBook();
             book.AddGrade(91);
             book.AddGrade(89.5F);
+            book.AddGrade(75);
 
-            GradeBook book2 = book;
-            book2.AddGrade(75);
+            // make explicit , will return stats you need
+            // encapsulating lowest/highest/avg scores
+            // create another class
+            GradeStatistics stats = book.ComputeStatistics();
+
+            Console.WriteLine("Average: " + stats.AverageGrade);
+            Console.WriteLine("Lowest : " + stats.LowestGrade);
+            Console.WriteLine("Highest : " + stats.HighestGrade);
         }
     }
 }
