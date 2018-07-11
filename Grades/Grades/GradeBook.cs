@@ -48,6 +48,8 @@ namespace Grades
             grades.Add(grade);
         }
 
+        public string Name;
+
 
         // classes that allow you to store multiple things
         // what is it storing?

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Speech.Synthesis;
+//using System.Speech.Synthesis;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,8 +11,10 @@ namespace Grades
     {
         static void Main(string[] args)
         {
-            SpeechSynthesizer synth = new SpeechSynthesizer();
-            synth.Speak("Laura, you have mastered assemblies and you are the best at C#!");
+
+
+            //SpeechSynthesizer synth = new SpeechSynthesizer();
+            //synth.Speak("Laura, you have mastered assemblies and you are the best at C#!");
 
             GradeBook book = new GradeBook();
             book.AddGrade(91);

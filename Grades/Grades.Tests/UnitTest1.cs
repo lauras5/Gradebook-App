@@ -9,7 +9,7 @@ namespace Grades.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            GradeBook
+            
         }
     }
 }
