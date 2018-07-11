@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Grades
 {
-    class GradeBook
+    public class GradeBook
     {
         // class or cookie cutter used to create object
         // constructor
